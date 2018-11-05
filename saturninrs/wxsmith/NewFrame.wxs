@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="NewFrame">
+		<size>1040,500</size>
+		<object class="wxSpinButton" name="ID_SPINBUTTON1" variable="SpinButton1" member="yes">
+			<max>100</max>
+			<pos>120,96</pos>
+			<size>168,232</size>
+		</object>
+		<object class="wxGauge" name="ID_GAUGE1" variable="Gauge1" member="yes">
+			<pos>24,40</pos>
+		</object>
+		<object class="wxRadioBox" name="ID_RADIOBOX1" variable="RadioBox1" member="yes">
+			<label>Label</label>
+			<default>-1</default>
+			<pos>328,56</pos>
+		</object>
+		<object class="wxStaticLine" name="ID_STATICLINE1" variable="StaticLine1" member="yes">
+			<pos>272,200</pos>
+			<size>10,-1</size>
+		</object>
+		<object class="wxStopWatch" subclass=" DETINATOR1 &gt;&gt; *|!" variable="StopWatch1" member="yes">
+			<extra_code>00:00/;</extra_code>
+		</object>
+		<object class="wxTimer" name="ID_TIMER1" variable="Timer1" member="yes" />
+	</object>
+</wxsmith>
